@@ -13,6 +13,3 @@ xset s off &
 sleep 1
 cat $HOME/wm.log
 
-START_SCRIPT="/dockerstartup/mysql-docker-entrypoint.sh"
-DAEMON=$START_SCRIPT
-PID=`$DAEMON > /tmp/mysql.log 2>&1 & echo $!
